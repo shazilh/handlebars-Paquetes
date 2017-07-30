@@ -3,8 +3,8 @@
 	border-width: 1px;
 	border-color:grey;
 	width:100%;
-	height: 700px;
-	margin-top: 50px;
+	height: 750px;
+	margin-top: 10px;
 }
 .row .col{
 	padding: 0!important;
@@ -13,10 +13,20 @@
 	width:100%;
 	height: 150px;
 	background-color:#383838;
+
+}
+.caja-informacion-paquetes{
+	border-bottom: solid;
+	border-width: 1px;
+	border-color:grey;
 }
 .fuente{
 	font-family: 'Roboto', sans-serif;
 	font-size: 25px;
+}
+.fuente2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
 }
 .titulo{
 	margin: 0;
@@ -50,7 +60,8 @@
 }
 .centavos{
 	position: relative;
-	top: -3px;
+	top: -10px;
+	font-size: 20px;
 }
 .boton-verde{
 	background: #10f22b;
@@ -64,9 +75,19 @@
 }
 .letra-gris{
 	color:grey;
-	padding-top: 5arpx;
-	padding-bottom: 5arpx;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .caja-opaca{
 	background-color:#e8e9eb;
+}
+.gris{
+	color:grey;
+	margin:0;
+}
+.pd{
+	padding-top: 10px!important;
+}
+.mg{
+	margin-top: 30px;
 }

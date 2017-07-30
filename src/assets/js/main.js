@@ -10,10 +10,12 @@ var template= document.getElementById('index').innerHTML;
 					monthly_traffic: "200MB",
 					subdomains: 2,
 					email_accounts: 5,
-					webmail_support: "white",
-					mySQL_support:"grey",
-					espacio_blanco:"white",
-					espacio_gris:"gris"
+					webmail_support: " ",
+					mySQL_support:" ",
+					campo_extra:".",
+					campo_extra2:". ",
+					campo_extra3:" .",
+					precio:9
 				},
 				{
 					tipo: "Corporate",
@@ -22,8 +24,12 @@ var template= document.getElementById('index').innerHTML;
 					monthly_traffic: "400MB",
 					subdomains: 5,
 					email_accounts: 10,
-					color: "white",
-					siete: "PHP5 Suport"
+					webmail_support: " ",
+					mySQL_support:" ",
+					campo_extra:"PHP5 Support",
+					campo_extra2:".",
+					campo_extra3:".",
+					precio:14
 				},
 				{
 					tipo: "Bussines",
@@ -32,9 +38,12 @@ var template= document.getElementById('index').innerHTML;
 					monthly_traffic: "1GB",
 					subdomains: 10,
 					email_accounts: 25,
-					color: "black",
-					siete: "PHP5 Suport",
-					ocho: "Piesk Control Panel"
+					webmail_support: " ",
+					mySQL_support:" ",
+					campo_extra: "PHP5 Suport",
+					campo_extra2: "Plesk Control Panel",
+					campo_extra3:".",
+					precio:29
 				},
 				{
 					tipo: "Platinum",
@@ -43,10 +52,12 @@ var template= document.getElementById('index').innerHTML;
 					monthly_traffic: "Unimited",
 					subdomains: "Unimited",
 					email_accounts: "Unimited",
-					color: "white",
-					siete: "PHP5 Suport",
-					ocho: "Piesk Control Panel",
-					nueve: "Spam Asasing"
+					webmail_support: " ",
+					mySQL_support:" ",
+					campo_extra: "PHP5 Suport",
+					campo_extra2: "Plesk Control Panel",
+					campo_extra3:"Span Assassin",
+					precio:59
 				}
 			]
 		}
