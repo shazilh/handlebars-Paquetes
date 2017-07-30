@@ -1,12 +1,72 @@
-.caja{
+.caja-principal{
 	border-style: solid;
 	border-width: 1px;
-	border-color:white;
+	border-color:grey;
 	width:100%;
-	height: 200px;
-	background-color:#6d6060;
+	height: 700px;
+	margin-top: 50px;
 }
-.cuadros{
-	width: 100%;
-	height: 250px;
+.row .col{
+	padding: 0!important;
+}
+.caja-gris{
+	width:100%;
+	height: 150px;
+	background-color:#383838;
+}
+.fuente{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+}
+.titulo{
+	margin: 0;
+}
+.circulo-afuera{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: relative;
+	background: white;
+	top:10px;
+	margin: 0 auto;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.circulo-precio{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: white;
+	box-shadow: inset -3px -3px 13px gray;
+	color:gray;
+}
+.simbolo{
+	color: #42edd6;
+	display: block;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.centavos{
+	position: relative;
+	top: -3px;
+}
+.boton-verde{
+	background: #10f22b;
+	height: 30px;
+	width: 80px;
+	border:none;
+}
+.cont-boton-verde{
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.letra-gris{
+	color:grey;
+	padding-top: 5arpx;
+	padding-bottom: 5arpx;
+}
+.caja-opaca{
+	background-color:#e8e9eb;
 }

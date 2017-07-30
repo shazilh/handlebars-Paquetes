@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" type="text/css" href="./src/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<title>Replica Prices</title>
 
 </head>
@@ -15,9 +16,29 @@
 	<!--script para poner estructura-->
 			<script type="text/x-handlebars-template" id="index">
 					{{#each paquete_tipo}}<!--uso de helpers-->
-						<div class="col s3 caja">
-							<p class="center">{{{tipo}}}</p>
-						</div>
+							<div class="col s3 caja-principal">
+								<div class="caja-gris center">
+									<p class="center white-text fuente titulo">{{{tipo}}}</p>
+									<div class="circulo-afuera">
+										<div class="circulo-precio">
+											<span class="simbolo">$ {{{ precio }}}<sup class="centavos">00</sup></span>
+										por mes
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="white-text cont-boton-verde center">
+										<button class="boton-verde">Sing up</button>
+									</div>
+									<ul class="center">
+										<li class="letra-gris">{{{disk_space}}} Disk Space</li>
+										<li class="letra-gris caja-opaca">{{{monthly_traffic}}} Montly Traffic</li>
+										<li class="letra-gris">{{{subdomains}}} Subdomains</li>
+										<li class="letra-gris caja-opaca">{{{email_accounts}}} Email Accounts</li>
+
+									</ul>
+								</div>
+							</div>
 					{{/each}}
 
 			</script>
