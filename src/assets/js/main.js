@@ -33,6 +33,9 @@ var template= document.getElementById('index').innerHTML;
 				},
 				{
 					tipo: "Bussines",
+					color:"black",
+					linea:"div-final2",
+					color_blanco:"blanco",
 					precio: 29,
 					disk_space: "1GB",
 					monthly_traffic: "1GB",
@@ -42,8 +45,7 @@ var template= document.getElementById('index').innerHTML;
 					mySQL_support:" ",
 					campo_extra: "PHP5 Suport",
 					campo_extra2: "Plesk Control Panel",
-					campo_extra3:".",
-					precio:29
+					campo_extra3:"."
 				},
 				{
 					tipo: "Platinum",
@@ -56,8 +58,7 @@ var template= document.getElementById('index').innerHTML;
 					mySQL_support:" ",
 					campo_extra: "PHP5 Suport",
 					campo_extra2: "Plesk Control Panel",
-					campo_extra3:"Span Assassin",
-					precio:59
+					campo_extra3:"Span Assassin"
 				}
 			]
 		}

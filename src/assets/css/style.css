@@ -19,6 +19,8 @@
 	border-bottom: solid;
 	border-width: 1px;
 	border-color:grey;
+	padding-bottom: 1px;
+	height: 430px;
 }
 .fuente{
 	font-family: 'Roboto', sans-serif;
@@ -85,9 +87,32 @@
 	color:grey;
 	margin:0;
 }
-.pd{
-	padding-top: 10px!important;
-}
+
 .mg{
 	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.black{
+	background: black;
+	color: white;
+	border:none;
+}
+.black li:nth-child(even){
+	background: #616161;
+	color:white;
+}
+.black li:nth-child(odd){
+	background-color: black
+	color:white;
+}
+.div-final{
+	padding-top: 20px;
+}
+.div-final2{
+	border-style: solid;
+	border-width: 1px;
+	border-color:grey;
+}
+.blanco{
+	color:white;
 }
