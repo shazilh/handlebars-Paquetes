@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="./src/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+	<title>Replica Prices</title>
+
+</head>
+<body>
+		<div class="container">
+<!--configurar mi plantilla handlebars-->
+			<div id="action" class="row"></div>
+	<!--script para poner estructura-->
+			<script type="text/x-handlebars-template" id="index">
+					{{#each paquete_tipo}}<!--uso de helpers-->
+						<div class="col s3 caja">
+							<p class="center">{{{tipo}}}</p>
+						</div>
+					{{/each}}
+
+			</script>
+	<!--script que llama la herramienta handlebars-->
+			<script type="text/javascript"" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+			<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+		    <script type="text/javascript" src="./src/assets/js/main.js"></script>
+</body>
+</html>
